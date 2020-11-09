@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b77584ae-e064-4881-bfc9-0033fbe1dca7}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>mario_level_1.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="resources\graphics\enemies.png" />
+    <Content Include="resources\graphics\item_objects.png" />
+    <Content Include="resources\graphics\level_1.png" />
+    <Content Include="resources\graphics\mario_bros.png" />
+    <Content Include="resources\graphics\smb_enemies_sheet.png" />
+    <Content Include="resources\graphics\text_images.png" />
+    <Content Include="resources\graphics\tile_set.png" />
+    <Content Include="resources\graphics\title_screen.png" />
+    <Content Include="screenshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="data\components\bricks.py" />
+    <Compile Include="data\components\castle_flag.py" />
+    <Compile Include="data\components\checkpoint.py" />
+    <Compile Include="data\components\coin.py" />
+    <Compile Include="data\components\coin_box.py" />
+    <Compile Include="data\components\collider.py" />
+    <Compile Include="data\components\enemies.py" />
+    <Compile Include="data\components\flagpole.py" />
+    <Compile Include="data\components\flashing_coin.py" />
+    <Compile Include="data\components\info.py" />
+    <Compile Include="data\components\mario.py" />
+    <Compile Include="data\components\powerups.py" />
+    <Compile Include="data\components\score.py" />
+    <Compile Include="data\components\__init__.py" />
+    <Compile Include="data\constants.py" />
+    <Compile Include="data\game_sound.py" />
+    <Compile Include="data\main.py" />
+    <Compile Include="data\setup.py" />
+    <Compile Include="data\states\level1.py" />
+    <Compile Include="data\states\load_screen.py" />
+    <Compile Include="data\states\main_menu.py" />
+    <Compile Include="data\states\__init__.py" />
+    <Compile Include="data\tools.py" />
+    <Compile Include="data\__init__.py" />
+    <Compile Include="mario_level_1.py" />
+    <Compile Include="resources\fonts\__init__.py" />
+    <Compile Include="resources\graphics\__init__.py" />
+    <Compile Include="resources\music\__init__.py" />
+    <Compile Include="resources\sound\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
+    <Folder Include="data\components" />
+    <Folder Include="data\states" />
+    <Folder Include="resources\" />
+    <Folder Include="resources\fonts" />
+    <Folder Include="resources\graphics" />
+    <Folder Include="resources\music" />
+    <Folder Include="resources\sound" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

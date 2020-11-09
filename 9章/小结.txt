@@ -1,0 +1,15 @@
+lambda 不必声明的函数 只能简单使用
+（lambda x: "The letter is %s\r\n" % x, map_me）
+
+map 循环函数多个列表
+
+range 给for提供一个循环
+可以多个参数
+1， 10 循环 10-1次
+2，以2倍数 2，4，6，8
+for i in range(1, 10, 2)
+
+字符串替换
+import string
+t = string.Template（$字典键名）
+t.substitute(字典字典dict)

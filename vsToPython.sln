@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "爬虫免费下载VIP音乐", "爬虫免费下载VIP音乐\爬虫免费下载VIP音乐.pyproj", "{87E3E117-8628-405B-9783-856C3DAA6283}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3章", "3章\3章.pyproj", "{38EF9A00-C069-4B81-9372-EB925407C025}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "4章", "4章\4章.pyproj", "{9B09D88F-2DD1-4C1B-9258-2A0A31977C39}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "5章", "5章\5章.pyproj", "{84989E23-CAA2-4740-A330-587C73B0CF92}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "6章", "6章\6章.pyproj", "{0E0DF758-850C-4C29-9DE2-8FFE697FC0DE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "7章", "7章\7章.pyproj", "{D6DF7127-1B24-4968-BFB4-E392C29D3320}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "8章", "8章\8章.pyproj", "{E6CB3ED7-23C7-4905-9E5A-93598863976B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "9章", "9章\9章.pyproj", "{4DA9B2EF-F82D-47C1-A07A-3AAC7B1DD7A8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "10章", "10章\10章.pyproj", "{129EF998-E837-4E37-BEA7-2C13A29E28B1}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "11章", "11章\11章.pyproj", "{64E56D50-E9A1-43BA-A103-E08E51FE0E6C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "12章", "12章\12章.pyproj", "{48989052-2084-4584-8CA5-44C465C1AE20}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13章GUI", "13章GUI\13章GUI.pyproj", "{A6070C22-F128-4BBF-8ED6-DC8B5407005A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "14章 数据库", "14章 数据库\14章 数据库.pyproj", "{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "A下载", "A下载\A下载.pyproj", "{72D7E4E2-809B-4AF2-A999-8BCFA9C95E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python编程入门经典", "Python编程入门经典", "{16A7D01C-5C7C-443D-A42D-CC743F0400B3}"
+	ProjectSection(SolutionItems) = preProject
+		Python编程入门经典\Chapter 10.zip = Python编程入门经典\Chapter 10.zip
+		Python编程入门经典\Chapter 11.zip = Python编程入门经典\Chapter 11.zip
+		Python编程入门经典\Chapter 12.zip = Python编程入门经典\Chapter 12.zip
+		Python编程入门经典\Chapter 14.zip = Python编程入门经典\Chapter 14.zip
+		Python编程入门经典\Chapter 15.zip = Python编程入门经典\Chapter 15.zip
+		Python编程入门经典\Chapter 16.zip = Python编程入门经典\Chapter 16.zip
+		Python编程入门经典\Chapter 17.zip = Python编程入门经典\Chapter 17.zip
+		Python编程入门经典\Chapter 19.zip = Python编程入门经典\Chapter 19.zip
+		Python编程入门经典\Chapter 21.zip = Python编程入门经典\Chapter 21.zip
+		Python编程入门经典\Chapter 5.zip = Python编程入门经典\Chapter 5.zip
+		Python编程入门经典\Chapter 6.zip = Python编程入门经典\Chapter 6.zip
+		Python编程入门经典\Chapter 7.zip = Python编程入门经典\Chapter 7.zip
+		Python编程入门经典\Chapter 8.zip = Python编程入门经典\Chapter 8.zip
+		Python编程入门经典\Chapter 9.zip = Python编程入门经典\Chapter 9.zip
+		Python编程入门经典\README.txt = Python编程入门经典\README.txt
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "QQ音乐下载爬取", "QQ音乐下载爬取\QQ音乐下载爬取.pyproj", "{385E2C94-52DF-41D1-900F-B66874C5B2B8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "socket", "socket\socket.pyproj", "{36E81479-41B2-4A24-8E7C-17B09AFF8E03}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "百度性感美女壁纸", "百度性感美女壁纸\百度性感美女壁纸.pyproj", "{74F26A4B-C6C9-4CD7-BB55-5BF9604D2F95}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "笔趣阁爬取小说", "笔趣阁爬取小说\笔趣阁爬取小说.pyproj", "{0919A2ED-B9E7-47D5-9170-96BCFA1C2C66}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "超级玛丽Python", "超级玛丽Python\超级玛丽Python.pyproj", "{B77584AE-E064-4881-BFC9-0033FBE1DCA7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "斗图", "斗图\斗图.pyproj", "{DEC834DC-8F30-4351-AC6E-F03819BD9D56}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "发送QQ邮件", "发送QQ邮件\发送QQ邮件.pyproj", "{7CF4AD8C-B762-48F8-A9AF-F9532DB585DC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "爬取妹子图图片", "爬取妹子图图片\爬取妹子图图片.pyproj", "{185C2391-2760-453D-8D20-9FDCE47A5DB2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "爬取图片+百度人脸识别", "爬取图片+百度人脸识别\爬取图片+百度人脸识别.pyproj", "{B2EEE441-278E-4257-8B21-18C99F8EC13B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "视频爬取", "视频爬取\视频爬取.pyproj", "{F22A5FB8-DEDE-41E2-BE3F-E00A24058657}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "视频爬取下载", "视频爬取下载\视频爬取下载.pyproj", "{E32455AA-9F48-4E23-A2FE-F08D2AE5BB93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{860F7A3D-C46F-4FB2-9331-90267CD813A6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		GUI.txt = GUI.txt
+		text.txt = text.txt
+		变量.txt = 变量.txt
+		辞职信.html = 辞职信.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E3E117-8628-405B-9783-856C3DAA6283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E3E117-8628-405B-9783-856C3DAA6283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EF9A00-C069-4B81-9372-EB925407C025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EF9A00-C069-4B81-9372-EB925407C025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B09D88F-2DD1-4C1B-9258-2A0A31977C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B09D88F-2DD1-4C1B-9258-2A0A31977C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84989E23-CAA2-4740-A330-587C73B0CF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84989E23-CAA2-4740-A330-587C73B0CF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0DF758-850C-4C29-9DE2-8FFE697FC0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0DF758-850C-4C29-9DE2-8FFE697FC0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DF7127-1B24-4968-BFB4-E392C29D3320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DF7127-1B24-4968-BFB4-E392C29D3320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CB3ED7-23C7-4905-9E5A-93598863976B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CB3ED7-23C7-4905-9E5A-93598863976B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA9B2EF-F82D-47C1-A07A-3AAC7B1DD7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA9B2EF-F82D-47C1-A07A-3AAC7B1DD7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129EF998-E837-4E37-BEA7-2C13A29E28B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129EF998-E837-4E37-BEA7-2C13A29E28B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E56D50-E9A1-43BA-A103-E08E51FE0E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E56D50-E9A1-43BA-A103-E08E51FE0E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48989052-2084-4584-8CA5-44C465C1AE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48989052-2084-4584-8CA5-44C465C1AE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6070C22-F128-4BBF-8ED6-DC8B5407005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6070C22-F128-4BBF-8ED6-DC8B5407005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D7E4E2-809B-4AF2-A999-8BCFA9C95E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D7E4E2-809B-4AF2-A999-8BCFA9C95E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385E2C94-52DF-41D1-900F-B66874C5B2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385E2C94-52DF-41D1-900F-B66874C5B2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E81479-41B2-4A24-8E7C-17B09AFF8E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E81479-41B2-4A24-8E7C-17B09AFF8E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F26A4B-C6C9-4CD7-BB55-5BF9604D2F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F26A4B-C6C9-4CD7-BB55-5BF9604D2F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0919A2ED-B9E7-47D5-9170-96BCFA1C2C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0919A2ED-B9E7-47D5-9170-96BCFA1C2C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77584AE-E064-4881-BFC9-0033FBE1DCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77584AE-E064-4881-BFC9-0033FBE1DCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC834DC-8F30-4351-AC6E-F03819BD9D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC834DC-8F30-4351-AC6E-F03819BD9D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF4AD8C-B762-48F8-A9AF-F9532DB585DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF4AD8C-B762-48F8-A9AF-F9532DB585DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185C2391-2760-453D-8D20-9FDCE47A5DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185C2391-2760-453D-8D20-9FDCE47A5DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EEE441-278E-4257-8B21-18C99F8EC13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EEE441-278E-4257-8B21-18C99F8EC13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22A5FB8-DEDE-41E2-BE3F-E00A24058657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22A5FB8-DEDE-41E2-BE3F-E00A24058657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32455AA-9F48-4E23-A2FE-F08D2AE5BB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32455AA-9F48-4E23-A2FE-F08D2AE5BB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4AE4DAE-6982-4F81-AC27-39174E62BC3D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+Tkinter :是python最简单的图形化模块，总共只有14种组建
+    https://blog.csdn.net/ahilll/article/details/81531587 使用和介绍网站
+Pyqt     :是python最复杂也是使用最广泛的图形化
+
+Wx       :是python当中居中的一个图形化，学习结构很清晰
+    https://wiki.wxpython.org/FrontPage 使用和介绍网站
+Pywin   :是python windows 下的模块，摄像头控制(opencv)，常用于外挂制作
+
+
+Tkinter:属性参数
+border: 设置边框宽度(如 bd=1)
+relief: 确定边框的样式（relief=raised）
+bg：设置背景颜色 
+fg：设置字体颜色
+sursor:设置光标悬浮在小组件上显示的形状(如 cursor=cross)
+padding:设置一个小组件周围的空距
+pack、expand和fill
+state：设置对象的状态(如 state=DISABLED)
+size:控制小组件尺寸的高度和宽度设置，允许它比TKinter几何管理器设置的尺寸更大
+
+小组件：
+BitMapImage：允许在其他小组件上部展现位图图像的一种小组件对象
+Button：一种“可单击”的按钮
+Canvas：用于显示一些图形的对象，图形包括圆形，线条，图片，文本等
+Checkbutton：包含两种状态True和False的按钮小组件。它给用户提供多种选择
+Entry：由一行文本组成的文本输入字段
+Frame：保存其他小组件的一种容器
+Label：可以在其他写文本或“标签”的小组件
+Listbox：保存可选择的数据的列表框
+Menu：选项集合
+Menubutton：用于显示一个选项菜单和子菜单的菜单
+Message：类似于一个标签，只用于多行文本
+PhotoImage：与BitMapImage相同，只用于全色图像
+Radiobutton：状态为True或False的按钮，用于多选择情况
+Scale：向上和向下滑动的小组件，并允许用户以这样方式选择选项
+Scrollbar：允许滚动其他小组件的一种小组件
+Text：用于处理多行文本的一种浏览/编辑小组件
+Toplevel， Tk：一个新窗口
