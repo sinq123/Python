@@ -13,6 +13,18 @@ import time
 import sys
 import os
 
+# 判断文件夹是否存在， 不存在创建文件夹
+def Exists(path):
+    # 去除首位空格
+    path = path.strip()
+    # 去除尾部 \ 符号
+    path = path.rstrip("\\")
+    if not(os.path.exists(path)):
+        # 如果不存在则创建目录
+        # 创建目录操作函数
+        os.makedirs(path)
+    return
+
 def Time_1():
     for i in range(1, 51):
         sys.stdout.write('\r')
@@ -62,17 +74,21 @@ def KuGou_music():
         music_href = dict_2['data']['play_backup_url']
 
         music_content = urlopen(url=music_href).read()
-        try:
-            os.mkdir('D:/Windows 10 Documents/Desktop/酷狗音乐下载/')
-        except Exception as e:
-            print(e, '稍等,程序仍然执行')
-        finally:
-            music_path = 'D:/Windows 10 Documents/Desktop/酷狗音乐下载/' + list_music[music_id_1 - 1] + '.mp3'  # 歌曲下载路径
-            with open(music_path, 'wb') as f:
-                print('正在下载当中...')
-                f.write(music_content)
-                Time_1()
-                print('{}.mp3下载成功！'.format(list_music[music_id_1 - 1]))
+        #try:
+        #    os.mkdir('D:/Windows 10 Documents/Desktop/酷狗音乐下载/')
+        #except Exception as e:
+        #    print(e, '稍等,程序仍然执行')
+        #finally:
+        music_path = "%s\\音乐文件夹\\" % (os.path.dirname(os.path.realpath(__file__)))
+        # 判断文件夹是否存在
+        Exists(music_path)
+        music_path = music_path + '\\' + list_music[music_id_1 - 1] + '.mp3'  # 歌曲下载路径
+        
+        with open(music_path, 'wb') as f:
+            print('正在下载当中...')
+            f.write(music_content)
+            Time_1()
+            print('{}.mp3下载成功！'.format(list_music[music_id_1 - 1]))
 
     except:
         print('对不起，没有该歌曲的版权！')
