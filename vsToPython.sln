@@ -92,6 +92,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "13章GUI", "从入门到实
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "14章 数据库", "从入门到实践\14章 数据库\14章 数据库.pyproj", "{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "自动化", "自动化", "{424487A5-931D-4D20-B472-E01CA91128B8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "模糊匹配和正则表达式", "自动化\模糊匹配和正则表达式\模糊匹配和正则表达式.pyproj", "{C0149EB3-8658-4168-ACFF-B73427005FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +166,8 @@ Global
 		{A6070C22-F128-4BBF-8ED6-DC8B5407005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0149EB3-8658-4168-ACFF-B73427005FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0149EB3-8658-4168-ACFF-B73427005FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +189,7 @@ Global
 		{48989052-2084-4584-8CA5-44C465C1AE20} = {4F34637D-F54B-43D7-94B6-8F6FA74CCDE8}
 		{A6070C22-F128-4BBF-8ED6-DC8B5407005A} = {4F34637D-F54B-43D7-94B6-8F6FA74CCDE8}
 		{86A74452-08D4-4DF7-9F6E-BDEEC2C7A365} = {4F34637D-F54B-43D7-94B6-8F6FA74CCDE8}
+		{C0149EB3-8658-4168-ACFF-B73427005FC5} = {424487A5-931D-4D20-B472-E01CA91128B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4AE4DAE-6982-4F81-AC27-39174E62BC3D}

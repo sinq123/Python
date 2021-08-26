@@ -90,13 +90,15 @@ class mzitu():
     # 这个函数获取网页的response 然后返回
     def request(self, url):
         headers = {
-            'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
-        content = requests.get(url, headers=headers)
+            'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+            'Referer': "https://www.mzitu.com/"
+            }
+        content = requests.get(url=url, headers=headers)
         return content
 
 
 # 实例化
 Mzitu = mzitu()
 # 给函数all_url传入参数 你可以当作启动爬虫（就是入口）
-Mzitu.all_url('http://www.mzitu.com/all')
+Mzitu.all_url('http://www.mzitu.com')
 print(u'恭喜您下载完成啦！')

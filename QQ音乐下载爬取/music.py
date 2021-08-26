@@ -110,6 +110,7 @@ def DownloadMusic():
         # 获取播放地址，歌名，str形式显示
         url = curItem["values"][3]
         musicName = curItem["values"][2]
+        musicSige= curItem["values"][1]
         # 组合下载地址
         content_json=requests.get(url)
         dict_2=json.loads(content_json.text)
@@ -123,7 +124,7 @@ def DownloadMusic():
         # 以下简单操作，不保证一定成功，以上是保证一定成功
         #os.mkdir('./QQ音乐')
         #保存路径
-        music_path = music_path + musicName + '.mp3'
+        music_path = music_path + musicName + "_"+ musicSige + '.mp3'
         #下载保存
         urlretrieve(url=downlad,filename=music_path)
         Time_1()

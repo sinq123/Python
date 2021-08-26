@@ -36,7 +36,7 @@ if response.status_code == 200:
     # 获取图片链接列表
     url_list = content.xpath('//*[@id="pins"]/li/a/@href')
     # 打印图片链接列表
-    # print(url_list)
+    print(url_list)
 
     # 历遍图片链接
     for url in url_list:
