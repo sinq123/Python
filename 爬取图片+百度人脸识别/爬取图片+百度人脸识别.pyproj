@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{b2eee441-278e-4257-8b21-18c99f8ec13b}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>AipFaceKey.py</StartupFile>
+    <StartupFile>baidu.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

@@ -39,6 +39,38 @@ def delButton(tree):
         tree.delete(item)
 
 
+def GetSongmid():
+    delButton(text)
+    music_info_List = []
+    name = entry.get()
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'}
+    url = 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p=1&n=%d&w=%s'%(10,name)
+    res = requests.get(url,headers = headers)
+    res.encoding = 'utf-8'
+    html = res.text
+    html = html[9:]
+    html = html[:-1]
+    music_data = json.loads(html)
+    code = music_data['code']
+    if code == 0:
+        music_list = music_data['data']['song']['list']
+        for music in music_list:
+            music_name = music['songname'] #歌曲名
+            singer_name = music['singer'][0]['name']#歌手
+            singer_mid = music['songmid']# songmid 歌曲ID
+            music_info_List.append((music_name, singer_name, singer_mid))
+    if len(music_info_List) > 0:
+        music_info = music_info_List
+        i = 0
+        for Text in music_info_List:
+            i = i + 1
+            text.insert("", TK.END, values=(i, Text[1], Text[0], Text[2]))
+            text.update()
+    else:
+        return False
+    return True
+
+
 def GetList():
     delButton(text)
     music_info_List = []
@@ -151,7 +183,7 @@ frame_3 = TK.Frame(root)
 label = TK.Label(frame_1, text='请输入需要下载的歌曲或歌手', font=('微软雅黑', 10))
 # 输入控件()
 entry = TK.Entry(frame_1, font=('微软雅黑', 25), width='15')
-root.bind('<Return>', (lambda event, e=entry: GetList()))
+root.bind('<Return>', (lambda event, e=entry: GetSongmid()))
 # 列表框控件
 #text = TK.Listbox(frame_2, font=('微软雅黑', 25), width='27', height='6')
 # 列表（树结构）

@@ -14,7 +14,7 @@ driver = webdriver.Opera()     # Opera浏览器
 driver = webdriver.PhantomJS()   # PhantomJS
 '''
 
-driver = webdriver.Chrome()
+driver = webdriver.Edge()
 
 driver.get('https://www.baidu.com')
 print(driver.title)
