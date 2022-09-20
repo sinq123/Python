@@ -13,8 +13,8 @@ driver = webdriver.Opera()     # Opera浏览器
 
 driver = webdriver.PhantomJS()   # PhantomJS
 '''
-
-driver = webdriver.Edge()
+# 增加浏览器的绝对路径
+driver = webdriver.Edge(executable_path= 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe')
 
 driver.get('https://www.baidu.com')
 print(driver.title)
